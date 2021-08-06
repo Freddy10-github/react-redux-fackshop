@@ -1,9 +1,8 @@
-import Header from './containers/Header';
-import './App.css';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import ProductListing from './containers/ProductListing';
-import ProductDetail from './containers/ProductDetail';
-
+import Header from "./containers/Header";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ProductListing from "./containers/ProductListing";
+import ProductDetail from "./containers/ProductDetail";
 
 function App() {
   return (
@@ -16,8 +15,7 @@ function App() {
           <Route>404 Not Found!</Route>
         </Switch>
       </Router>
-    </div>    
-    
+    </div>
   );
 }
 
