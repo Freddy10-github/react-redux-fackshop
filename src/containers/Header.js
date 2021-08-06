@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const Header = () => {
   return (
-    <div className ='ui fixed menu'>
+    <div className="ui fixed menu">
       <div className="ui container center">
-        <h2>Fackshop</h2>
+        <h2>Fakeshop</h2>
       </div>
     </div>
   );
