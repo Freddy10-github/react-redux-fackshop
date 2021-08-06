@@ -20,7 +20,7 @@ const ProductListing = () => {
     fetchProducts();
   }, []);
   return (
-    <div className="ui grid container">
+    <div className="grid grid-cols-4 pt-16 max-w-screen-lg mx-auto gap-4">
       <ProducComponents />
     </div>
   );
